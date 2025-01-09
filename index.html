@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SGPA Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <h1>SGPA Calculator</h1>
+  </header>
+  <main class="container">
+    <form id="sgpaForm">
+      <p>Enter the grades for each subject below:</p>
+      <table class="subjects-table">
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Theory Credits</th>
+            <th>Theory Grade</th>
+            <th>Practical Credits</th>
+            <th>Practical Grade</th>
+          </tr>
+        </thead>
+        <tbody id="subjects">
+          <!-- Subject rows will be added dynamically by JavaScript -->
+        </tbody>
+      </table>
+      <button type="button" id="calculateBtn" class="btn">Calculate SGPA</button>
+      <div id="result" class="result"></div>
+    </form>
+  </main>
+  <footer class="footer">
+    <p>Made by Alok Singh</p>
+    <p>For any queries, contact: <a href="mailto:2024bit004@sggs.ac.in">2024bit004@sggs.ac.in</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
